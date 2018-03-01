@@ -1,0 +1,19 @@
+## 1 - Presentation layer
+
+- ASP.NET MVC, Reacjs, Angular, etc.
+
+## 2 - Services layer
+
+- All provided services as Web Apis, WCF, etc.
+
+## 3 - Application layer
+
+- All business logic, external services connection, etc.
+
+## 4 - Domain
+
+- All entities, interfaces, validations, everything which does not depends on any other layer.
+
+## 5 - Infrastructure 
+
+- All infrastructure logic as data connection, inversion of control, authentication, string resources, etc.

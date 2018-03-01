@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>  
+    <UserSecretsId>efd6b107-905c-480d-9bd4-75fc2759db1b</UserSecretsId>
+    <StartupObject></StartupObject>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.DataAnnotations" Version="2.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EvolutionIT.Template.Application\EvolutionIT.Template.Application.csproj" />
+    <ProjectReference Include="..\EvolutionIT.Template.CrossCutting.IoC\EvolutionIT.Template.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\EvolutionIT.Template.Domain\EvolutionIT.Template.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

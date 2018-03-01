@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EvolutionIT.Template.Application\EvolutionIT.Template.Application.csproj" />
+    <ProjectReference Include="..\EvolutionIT.Template.Data\EvolutionIT.Template.Data.csproj" />
+    <ProjectReference Include="..\EvolutionIT.Template.Domain\EvolutionIT.Template.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
