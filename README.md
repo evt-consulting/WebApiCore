@@ -1,4 +1,4 @@
-<img src="https://image.ibb.co/nnSu0x/Evolution_IT_Services_medio.png" alt="EvolutionIT"> 
+<img src="https://goo.gl/d7Qjyb" alt="EvolutionIT"> 
 
 [EvolutionIT](https://www.evolutionit.com.br/) - .NET Core Web Api Template
 =====================
